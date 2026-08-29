@@ -1,0 +1,14 @@
+Sucar! ist eine experimentelle App für Android Automotive OS, die eigenständig auf dem eingebauten Bildschirm Ihres Fahrzeugs läuft - ohne Telefon.
+
+Sie zeigt eine Live-Glukosekurve zusammen mit den Einstellungen direkt auf dem Bordbildschirm und verbindet sich mit einem Dienst für kontinuierliche Glukosemessung (CGM), den Sie bereits nutzen:
+- LibreView / LibreLinkUp
+- Dexcom Share
+- Nightscout
+
+Die Daten stammen aus dem Cloud-CGM-Dienst, den Sie konfigurieren; ein Telefon oder Sensor lädt sie zunächst dorthin hoch, danach ruft Sucar! sie direkt auf dem Fahrzeugbildschirm ab.
+
+Diese Version nutzt nicht das Android-Automotive-App-Framework und wird ausschließlich an interne Tester verteilt, nicht an die Öffentlichkeit.
+
+Sucar! enthält keine Werbung, keine Analyse- und keine Absturzberichts-Dienste. Ihre Daten werden nicht über das Abrufen beim konfigurierten CGM-Dienst hinaus gesammelt oder weitergegeben.
+
+Sucar! zeigt Daten aus Ihrer bestehenden CGM-Einrichtung an. Die App ersetzt weder Ihren CGM-Sensor, Ihr Lesegerät noch ein Medizinprodukt und ist kein Ersatz für eine professionelle medizinische Beratung.

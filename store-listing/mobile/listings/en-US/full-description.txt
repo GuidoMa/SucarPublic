@@ -1,0 +1,15 @@
+Sucar! shows your glucose readings on your car's display through Android Auto, so you can keep an eye on your levels without looking at your phone while driving.
+
+The app connects to a Continuous Glucose Monitor (CGM) data service you already use:
+- LibreView / LibreLinkUp
+- Dexcom Share
+- Nightscout
+- xDrip+ or Juggluco, directly from the same phone, if you use one of those apps
+
+Your current reading and a short history appear only in Android Auto, live and hands-free. The phone screen itself is for setup: choose your data source, enter your credentials, and adjust display preferences there.
+
+If you use xDrip+ or Juggluco, point them at the app package com.gma.sucar.mobile.
+
+Sucar! has no ads, no analytics, and no crash-reporting services. It doesn't collect or share your data - readings go directly between your configured CGM service and your device.
+
+Sucar! displays data from your existing CGM setup. It does not replace your CGM sensor, reader, or any medical device, and it is not a substitute for professional medical advice.
