@@ -6,9 +6,11 @@ Die App verbindet sich mit einem Dienst für kontinuierliche Glukosemessung (CGM
 - Nightscout
 - xDrip+ oder Juggluco, direkt vom selben Telefon, falls Sie eine dieser Apps verwenden
 
+Ihre Datenquelle ist nicht dabei? Eröffnen Sie ein Issue im öffentlichen Repository (github.com/GuidoMa/SucarPublic/issues) oder schreiben Sie eine E-Mail an sucar@gmx.eu, um sie vorzuschlagen.
+
 Ihr aktueller Wert und ein kurzer Verlauf erscheinen ausschließlich in Android Auto, live und freihändig. Der Bildschirm des Telefons dient nur zur Einrichtung: Wählen Sie dort Ihre Datenquelle, geben Sie Ihre Zugangsdaten ein und passen Sie die Anzeige an.
 
-Falls Sie xDrip+ oder Juggluco verwenden, richten Sie diese auf das App-Paket com.gma.sucar.mobile aus.
+Android Auto begrenzt derzeit, wie detailliert Nicht-Navigations-Apps das Fahrzeugdisplay nutzen dürfen, daher ist die Anzeige im Auto einfacher als ein vollständiges Glukose-Diagramm. Sucar! nutzt bereits alles, was technisch heute möglich ist, und wird von künftigen Verbesserungen profitieren, sobald Android Auto mehr zulässt.
 
 Sucar! enthält keine Werbung, keine Analyse- und keine Absturzberichts-Dienste. Ihre Daten werden nicht gesammelt oder weitergegeben - die Werte werden direkt zwischen Ihrem konfigurierten CGM-Dienst und Ihrem Gerät übertragen.
 

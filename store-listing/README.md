@@ -23,4 +23,4 @@ This mirrors the directory layout Gradle Play Publisher expects for a Play Conso
 
 `android-auto-screenshots/` and `head-unit-screenshots/` aren't a Play listing image type — Play has no such category — so they're kept here only as a reference copy of what's shown on Android Auto and the automotive head unit.
 
-Text and graphics files are placeholders until filled in.
+Icon and feature graphic are filled in for both flavors and locales. Phone screenshots, Android Auto screenshots, and head-unit screenshots are still placeholders until captured from the running app.

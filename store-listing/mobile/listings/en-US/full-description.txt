@@ -6,9 +6,11 @@ The app connects to a Continuous Glucose Monitor (CGM) data service you already 
 - Nightscout
 - xDrip+ or Juggluco, directly from the same phone, if you use one of those apps
 
+Don't see your data source listed? Open an issue on the public repository (github.com/GuidoMa/SucarPublic/issues) or email sucar@gmx.eu to request it.
+
 Your current reading and a short history appear only in Android Auto, live and hands-free. The phone screen itself is for setup: choose your data source, enter your credentials, and adjust display preferences there.
 
-If you use xDrip+ or Juggluco, point them at the app package com.gma.sucar.mobile.
+Android Auto currently limits how much detail non-navigation apps can show on the car display, so the in-car view is simpler than a full glucose chart. Sucar! already uses everything that's technically possible today, and will take advantage of any future improvements Google makes to what Android Auto allows.
 
 Sucar! has no ads, no analytics, and no crash-reporting services. It doesn't collect or share your data - readings go directly between your configured CGM service and your device.
 
