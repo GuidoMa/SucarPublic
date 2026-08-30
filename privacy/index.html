@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy for Sucar!</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 2rem 1.25rem 4rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #1a1a1a;
+    background: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e4e4e4; background: #121212; }
+    a { color: #7ab8ff; }
+  }
+  h1 { font-size: 1.6rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  p, li { font-size: 0.98rem; }
+  .updated { color: #666; font-size: 0.9rem; margin-top: 0; }
+  @media (prefers-color-scheme: dark) { .updated { color: #999; } }
+  ul { padding-left: 1.3rem; }
+</style>
+</head>
+<body>
+
+<h1>Privacy Policy for Sucar!</h1>
+<p class="updated">Last updated: 2026-08-21</p>
+
+<p>Sucar! ("the app") is a glucose monitoring app that displays Continuous Glucose Monitor (CGM) data from a service you already use, in the car (via Android Auto or, for the experimental Android Automotive OS variant, directly on the vehicle's built-in screen).</p>
+
+<h2>Summary</h2>
+<p>Sucar! has no backend server of its own. It reads glucose data either from the cloud CGM service you configure (LibreView/LibreLinkUp, Dexcom Share, or Nightscout) or directly from another app already on your phone (xDrip+ or Juggluco, via their local, on-device broadcast APIs). Data goes from that source straight to your device — never through a server operated by us. The app contains no analytics, advertising, or crash-reporting SDKs, and does not sell or share your data with any third party.</p>
+
+<h2>What data the app accesses</h2>
+<ul>
+  <li><strong>Glucose readings and trend</strong>, from whichever single data source you select in Settings:
+    <ul>
+      <li><strong>LibreView/LibreLinkUp, Dexcom Share, or Nightscout</strong>: the app connects directly to that service's own servers, using the account credentials or server address you provide, to fetch your glucose data.</li>
+      <li><strong>xDrip+ or Juggluco</strong>: if you use one of these apps on the same phone, Sucar! receives glucose updates via that app's local broadcast API — this data never leaves your device.</li>
+      <li><strong>Demo mode</strong>: generates fake data locally for trying out the app; no real data or network access involved.</li>
+    </ul>
+  </li>
+  <li><strong>Account credentials</strong> (for LibreView, Dexcom, or a Nightscout URL/token, if you use one of those sources) are stored locally on your device, in the app's private settings storage, and are sent only directly to the corresponding official service you configured — never to any server operated by Sucar!.</li>
+</ul>
+
+<h2>Where data is stored</h2>
+<ul>
+  <li>The app keeps a short local history of your recent glucose readings (up to about 12 hours) on your device, purely to draw the graph. This history is not uploaded anywhere by the app.</li>
+  <li>Your settings (selected data source, credentials/URL, unit preference, display preferences) are stored locally on your device using Android's standard app-private storage (DataStore).</li>
+  <li>Like most Android apps, Sucar! allows Android's built-in device backup (tied to your own Google account) to include this locally stored data, so it can be restored if you set up a new device signed into the same Google account. This is controlled by your device's own backup settings, not by Sucar!.</li>
+</ul>
+
+<h2>Data sharing</h2>
+<p>Sucar! does not sell, rent, or share your glucose data or credentials with any third party. The only network destinations the app talks to are the CGM service you explicitly configured (LibreView, Dexcom, or your own Nightscout server) — no analytics platform, advertising network, or crash-reporting service is included in the app.</p>
+
+<h2>Android Auto / Android Automotive</h2>
+<p>When connected to Android Auto, or when running the Android Automotive OS variant, the app displays the same glucose data described above on the vehicle's screen and, on the mobile variant, in an ongoing notification while a car session is active. No additional data is collected for this purpose, and nothing is transmitted to the vehicle manufacturer or to Google beyond what Android Auto's platform itself requires to operate.</p>
+
+<h2>Permissions</h2>
+<p>The app requests only the Android permissions needed for its core functionality: network access to reach your chosen CGM service, notification and foreground-service permissions to keep glucose polling running while connected to Android Auto, exact-alarm scheduling to keep glucose data timely, and boot-completed access to resume monitoring after a device restart if a car session was recently active. No location, contacts, camera, microphone, or similar sensitive permissions are requested.</p>
+
+<h2>Your choices</h2>
+<p>You can change or remove your configured data source and credentials at any time from the app's Settings. Uninstalling the app removes its locally stored data from your device (subject to any device backup you may have enabled, as described above).</p>
+
+<h2>Contact</h2>
+<p>If you have questions about this privacy policy, contact: <a href="mailto:sucar@gmx.eu">sucar@gmx.eu</a></p>
+
+</body>
+</html>
